@@ -3,7 +3,7 @@
 	<head>
 		<title>Flashcards</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+		<!-- <link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'> -->
 	</head>
 	<body>
 		<div class="wrapper">
@@ -24,7 +24,8 @@
 				// Get required nodes
 				wrapper = getNode('.wrapper'),
 				title = getNode('.flashcard-title'),
-				description = getNode('.flashcard-description'),
+				description = getNode('.flashcard-description')
+				i = 0, // counter for cards
 
 				// Define functions
 				setTitle = function(t) {
@@ -43,6 +44,11 @@
 					cardDescription.textContent = d;
 					description.appendChild(cardDescription);
 					description.style.visibility = 'hidden';
+				},
+				isVisible = function(node) {
+					if(document.defaultView.getComputedStyle(node,"").getPropertyValue('visibility') == 'hidden') {
+						return false;
+					} else return true;
 				};
 
 				try {
@@ -59,9 +65,9 @@
 							data.sort(function() { return 0.5 - Math.random() });
 
 							// Make first card
-							var card = data.pop();
-							setTitle(card.title);
-							setDescription(card.description);
+							//var card = data[i]; i++; // Increment the counter
+							setTitle("Trykk for å se");
+							setDescription("Trykk for neste");
 
 							// Add eventlisteners
 							document.addEventListener("click", next); // Mouse
@@ -70,17 +76,25 @@
 							// NEXT-function
 							function next(event) {
 								if(event.metaKey) return; // Avoid CMD-button
-								// Check if description is visible (use jQuery insted?)
-								if(document.defaultView.getComputedStyle(description,"").getPropertyValue('visibility') == 'hidden') {
+								if(event.which == 37 || event.which == 8) { // leftarrow or backspace
+									if(i == 0) {
+										setTitle("Det var første kortet!");
+										setDescription("");
+									} 
+									else if(i > 0) {
+										i--;
+									}
+								} if(!isVisible(description)) { 
 									description.style.visibility = 'visible';
-								} else {
+								} else if(i < data.length) {
 									//next card
-									if(data.length) {
-										var nextCard = data.pop();
-										setTitle(nextCard.title);
-										setDescription(nextCard.description);
-									};
-								};
+									setTitle(data[i].title);
+									setDescription(data[i].description);
+									i++;
+								} else if(i == data.length) {
+									setTitle("Det var siste kortet!");
+									setDescription("");
+								}
 							};
 						};
 					});
