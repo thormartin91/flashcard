@@ -16,5 +16,76 @@
 			</div>
 		</div>
 		<script src="http://127.0.0.1:8080/socket.io/socket.io.js"></script>
+		<script>
+			(function() {
+				var getNode = function(s) {
+					return document.querySelector(s);
+				},
+				// Get required nodes
+				wrapper = getNode('.wrapper'),
+				title = getNode('.flashcard-title'),
+				description = getNode('.flashcard-description'),
+
+				// Define functions
+				setTitle = function(t) {
+					if(title.hasChildNodes) {
+						title.removeChild(title.lastChild);
+					}
+					var cardTitle = document.createElement('h3');
+					cardTitle.textContent = t;
+					title.appendChild(cardTitle);
+				},
+				setDescription = function(d) {
+					if(description.hasChildNodes) {
+						description.removeChild(description.lastChild);
+					}
+					var cardDescription = document.createElement('p');
+					cardDescription.textContent = d;
+					description.appendChild(cardDescription);
+					description.style.visibility = 'hidden';
+				};
+
+				try {
+					var socket = io.connect('http://127.0.0.1:8080');
+				} catch(e) {
+
+				}
+
+				if(socket != undefined) {
+					// Listen for output
+					socket.on('output', function(data) {
+						if(data.length) {
+							// Randomize the data-list
+							data.sort(function() { return 0.5 - Math.random() });
+
+							// Make first card
+							var card = data.pop();
+							setTitle(card.title);
+							setDescription(card.description);
+
+							// Add eventlisteners
+							document.addEventListener("click", next); // Mouse
+							document.addEventListener("keydown", next); // Keyboard
+
+							// NEXT-function
+							function next(event) {
+								if(event.metaKey) return; // Avoid CMD-button
+								// Check if description is visible (use jQuery insted?)
+								if(document.defaultView.getComputedStyle(description,"").getPropertyValue('visibility') == 'hidden') {
+									description.style.visibility = 'visible';
+								} else {
+									//next card
+									if(data.length) {
+										var nextCard = data.pop();
+										setTitle(nextCard.title);
+										setDescription(nextCard.description);
+									};
+								};
+							};
+						};
+					});
+				};
+			})();
+		</script>
 	</body>
 </html>
