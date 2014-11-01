@@ -1,4 +1,3 @@
-flashcard
+Flashcard
 =========
-Making flashcards for studying
-Learning node.js, MongoDB
+Making flashcards for studying, while I learn node.js and MongoDB
