@@ -49,6 +49,10 @@
 					if(document.defaultView.getComputedStyle(node,"").getPropertyValue('visibility') == 'hidden') {
 						return false;
 					} else return true;
+				},
+				nextCard = function(card) {
+					setTitle(card.title);
+					setDescription(card.description);
 				};
 
 				try {
@@ -65,9 +69,11 @@
 							data.sort(function() { return 0.5 - Math.random() });
 
 							// Make first card
-							//var card = data[i]; i++; // Increment the counter
-							setTitle("Trykk for å se");
-							setDescription("Trykk for neste");
+							setTitle(data[i].title);
+							setDescription(data[i].description);
+							i++;
+							// setTitle("Trykk hva som helst for å se ditt første kort");
+							// setDescription("Flott! Du kan også trykke deg bakover med pil til venstre eller backspace. Trykk en tast for å se neste kort!");
 
 							// Add eventlisteners
 							document.addEventListener("click", next); // Mouse
@@ -76,14 +82,18 @@
 							// NEXT-function
 							function next(event) {
 								if(event.metaKey) return; // Avoid CMD-button
+
+								// BACKWARDS
 								if(event.which == 37 || event.which == 8) { // leftarrow or backspace
 									if(i == 0) {
-										setTitle("Det var første kortet!");
+										setTitle("Det var det første kortet! Trykk deg videre eller last inn siden på nytt for å starte med et tilfeldig kort");
 										setDescription("");
-									} 
-									else if(i > 0) {
+									} else {
 										i--;
+										nextCard(data[i]);
 									}
+
+								// FORWARDS
 								} if(!isVisible(description)) { 
 									description.style.visibility = 'visible';
 								} else if(i < data.length) {
@@ -92,7 +102,7 @@
 									setDescription(data[i].description);
 									i++;
 								} else if(i == data.length) {
-									setTitle("Det var siste kortet!");
+									setTitle("Det var det siste kortet! Trykk deg bakover eller last inn siden på nytt for å starte med et tilfeldig kort");
 									setDescription("");
 								}
 							};
