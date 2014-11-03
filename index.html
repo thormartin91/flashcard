@@ -7,7 +7,8 @@
 	</head>
 	<body>
 		<div class="flashcard">
-			<h1>Flashcard</h1>
+			<div class="flashcard-subject">
+			</div>
 			<div class="flashcard-title">
 			</div>
 			<div class="flashcard-description">
@@ -20,12 +21,20 @@
 					return document.querySelector(s);
 				},
 				// Get required nodes
-				wrapper = getNode('.wrapper'),
+				subject = getNode('.flashcard-subject'),
 				title = getNode('.flashcard-title'),
-				description = getNode('.flashcard-description')
+				description = getNode('.flashcard-description'),
 				i = 0, // counter for cards
 
 				// Define functions
+				setSubject = function(s) {
+					if(subject.hasChildNodes) {
+						subject.removeChild(subject.lastChild);
+					}
+					var cardSubject = document.createElement('h1');
+					cardSubject.textContent = s;
+					subject.appendChild(cardSubject);
+				},
 				setTitle = function(t) {
 					if(title.hasChildNodes) {
 						title.removeChild(title.lastChild);
@@ -61,8 +70,11 @@
 
 				if(socket != undefined) {
 					// Listen for output
-					socket.on('output', function(data) {
+					socket.on('output', function(data, subject) {
 						if(data.length) {
+							// Set subject header
+							setSubject(subject);
+							
 							// Randomize the data-list
 							data.sort(function() { return 0.5 - Math.random() });
 

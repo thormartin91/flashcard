@@ -1,5 +1,6 @@
 var mongo = require('mongodb').MongoClient,
-	client = require('socket.io').listen(8080).sockets;
+	client = require('socket.io').listen(8080).sockets,
+	subject = 'infosys';
 
 // Connect to DB
 mongo.connect('mongodb://127.0.0.1/flashcard', function(err, db) {
@@ -9,13 +10,13 @@ mongo.connect('mongodb://127.0.0.1/flashcard', function(err, db) {
 	client.on('connection', function(socket) {
 
 		// Connect to collection
-		var col = db.collection('infosys');
+		var col = db.collection(subject);
 
 		// Read flashcards from DB
 		col.find().limit(100).sort({_id:1}).toArray(function(err, res) {
 			if(err) throw err;
 			// Send result to client
-			socket.emit('output', res);
+			socket.emit('output', res, subject);
 		});
 	});
 });
