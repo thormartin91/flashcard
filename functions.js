@@ -59,8 +59,8 @@
 				// Randomize the data-list
 				data = rawdata.sort(function() { return 0.5 - Math.random() });
 				// Make first card
-				setTitle("Trykk hva som helst for å se ditt første kort");
-				setDescription("Flott! Du kan også trykke deg bakover med pil til venstre eller backspace. Trykk en tast for å se neste kort!");
+				setTitle("Press anything to see your first card..");
+				setDescription("Great! You can see the previous card with the left arrow or backspace. Now, press any key to get started!");
 			};
 		});
 	};
@@ -76,7 +76,7 @@
 		// BACKWARDS
 		if(event.which == 37 || event.which == 8) { // leftarrow or backspace
 			if(i == 0) {
-				setTitle("Det var det første kortet! Trykk deg videre eller last inn siden på nytt for å starte med et tilfeldig kort");
+				setTitle("That was the first card! Move forward again or reload the page to start with a random card.");
 				setDescription("");
 			} else {
 				i--;
@@ -92,7 +92,7 @@
 			setDescription(data[i].description);
 			i++;
 		} else if(i == data.length) {
-			setTitle("Det var det siste kortet! Trykk deg bakover eller last inn siden på nytt for å starte med et tilfeldig kort");
+			setTitle("That was the last card! Move backwards or reload the page to start with a random card.");
 			setDescription("");
 		}
 	};
