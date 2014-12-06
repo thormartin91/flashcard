@@ -4,7 +4,7 @@
 // MongoDB currently running at localhost
 
 var fs = require('fs'), 
-	filename = 'file.txt',
+	filename = 'infosys.txt',
 	mongo = require('mongodb').MongoClient
   ;
 // Connect to DB

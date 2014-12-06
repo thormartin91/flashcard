@@ -1,0 +1,196 @@
+Information system (IS) - A set of interrelated components that collect, manipulate, store, and disseminate data and information and provide a feedback mechanism to meet an objective. 
+Data - Raw facts, such as an employee number, total hours worked in a week, inventory part numbers, or sales order.
+Information - A collection of facts organized in such a way that they have additional value beyond the value of the individual facts.
+Process - A set of logically related tasks performed to achieve a defined outcome.
+Knowledge - The awareness and understanding of a set of information and ways that information can be made useful to support a specific task or reach a decision.
+System - A set of elements or components that interact to accomplish goals.
+Efficiency - A measure of what is produced divided by what is consumed.
+Effectiveness - A measure of the extent to which a system achieves its goals; it can be computed by dividing the goals actually achieved by the total of the stated goals.
+System performance standard - A specific objective of the system.
+Input - The activity of gathering and capturing raw data.
+Processing - Converting or transforming data to useful outputs.
+Output - Production of useful information, usually in the form of documents and reports.
+Feedback - Output that is used to make changes to input or processing activities.
+Forecasting - Predicting future events to avoid problems.
+Computer-based information system (CBIS) - A single set of hardware, software, databases, telecommunications, people, and procedures that are configured to collect, manipulate, store, and process data into information.
+Technology infrastructure - All the hardware, software, databases, telecommunications, people, and procedures that are configured to collect, manipulate, store and process data into information.
+Hardware - Computer equipment used to perform input, processing, and output activities.
+Software - The computer programs that govern the operation of the computer.
+Database - An organized collection of facts and information.
+Telecommunications - The electronic transmission of signals for communications, which enables organizations to carry out their processes and tasks through effective computer networks.
+Networks - Computers and equipment that are connected in a building, around the country, or around the world to enable electronic communications.
+Internet - The world’s largest computer network, consisting of thousands of interconnected networks, all freely exchanging information.
+Intranet - An internal network based on Web technologies that allows people within an organization to exchange information and work on projects.
+Extranet - A network based on Web technologies that allows selected outsiders, such as business partners and customers, to access authorized resources of a company’s intranet.
+Procedures - The strategies, policies, methods, and rules for using a CBIS (Computer-based information system)
+e-commerce - Any business transaction executed electronically between companies (business-to-business), companies and consumers (business-to-consumer), consumers and other consumers (consumer-to-consumer), business and the public sector, and consumers and the public sector.
+Mobile commerce (m-commerce) - Transactions conducted anywhere, anytime.
+Electronic business (e-business) - Using information systems and the internet to perform all business-related tasks and functions.
+Transaction - Any business-related exchange, such as payments to employees, sales to customers, and payments to suppliers.
+Transaction processing system (TPS) - An organized collection of people, procedures, software, databases, and devices used to record completed business transactions.
+Enterprise resource planning (ERP) system - A set of integrated programs capable of managing a company’s vital business operations for an entire multisite, global organization.
+Management information system (MIS) - An organized collection of people, procedures, software, databases, and devices that provides routine information to managers and decision makers. 
+Decision support system (DSS) - An organized collection of people, procedures, software, databases, and devices used to support problem-specific decision making.
+Artificial intelligence (AI) - A field in which the computer system takes in the characteristics of human intelligence.
+Expert system - A system that gives a computer the ability to make suggestions and function like an expert in a particular field.
+Knowledge base - The collection of data, rules, procedures, and relationships that must be followed to achieve value or the proper outcome.
+Virtual reality - The simulation of a real or imagined environment that can be experienced visually in three dimensions.
+Systems development - The activity of creating or modifying business systems.
+Computer literacy - Knowledge of computer systems and equipment and the ways they function; it stresses equipment and devices (hardware), programs and instructions (software), databases, and telecommunications.
+Information systems literacy - Knowledge of how data and information are used by individuals, groups, and organizations.
+Organization - A formal collection of people and other resources established to accomplish a set of goals.
+Value chain - A series (chain) of activities that includes inbound logistics, warehouse and storage, production, finished product storage, outbound logistics, marketing and sales, and customer service.
+Organizational structure - Organizational subunits and the way they relate to the overall organization.
+Traditional organizational structure - An organizational structure in which major department heads report to a president or top-level manager.
+Flat organizational structure - An organizational structure with a reduced number of management layers.
+Empowerment - Giving employees and their managers more responsibility and authority to make decisions, take certain actions, and have more control over their jobs.
+Project organizational structure - A structure centered on major products or services.
+Team organizational structure - A structure centered on work teams or groups.
+Virtual organizational structure - A structure that employees individuals, groups, or complete business units in geographically dispersed areas that can last for a few weeks or years, often requiring telecommunications or the internet.
+Culture - A set of major understandings and assumptions shared by a group.
+Organizational culture - The major understandings and assumptions for business, corporation, or other organization.
+Organizational change - How for-profit and nonprofit organizations plan for, implement, and handle change.
+Change model - A representation of change theories that identifies the phases of change and the best way to implement them.
+Organizational learning - The adaptions to new conditions or alterations of organizational practices over time.
+Reengineering (Process redesign) - The radical redesign of business processes, organizational structures, information systems, and values of the organization to achieve a breakthrough in business results.
+Continuous improvement - Constantly seeking ways to improve business processes to add value to products and services.
+Technology acceptance model (TAM) - A model that describes the factors leading to higher levels of acceptance and usage of technology.
+Technology diffusion - A measure of how widely technology is spread throughout the organization.
+Technology infusion - The extent to which technology is deeply integrated into an area or department.
+Quality - The ability of a product (including services) to meet or exceed customer expectations.
+Outsourcing - Contracting with outside professional services to meet specific business needs.
+On-demand computing - Contracting for computer resources to rapidly respond to an organization’s varying workflow. Also called on-demand business and utility computing.
+Downsizing - Reducing the number of employees to cut costs.
+Competitive advantage - A significant and (ideally) long-term benefit to a company over its competition.
+Five-forces model - A widely accepted model that identifies five key factors that can lead to attainment of competitive advantage, including (1) the rivalry among existing competitors (2) the threat of new entrants, (3) the threat of substitute products and services, (4) the bargaining power of buyers, (5) the bargaining power of suppliers.
+Strategic alliance (strategic partnership) - An agreement between two or more companies that involves the joint production and distribution of goods and services.
+Productivity - A measure of the output achieved divided by the input required. 
+Return of investment (ROI) - One measure of IS value that investigates the additional profits or benefits that are generated as a percentage of the investment in IS technology.
+Total cost of ownership (TCO) - The measurement of the total cost of owning computer equipment, including desktop computers, networks, and large computers.
+Information center - A support function that provides users with assistance, training, application development, documentation, equipment selection and set-up, standards, technical assistance, and troubleshooting.
+Information service unit - A miniature IS department.
+Certification - A process for testing skills and knowledge, which results in a statement by certifying authority that confirms an individual is capable of performing a particular job.
+Electronic commerce - Conducting business activities (e.g., distribution, buying, selling, marketing, and servicing of products or services) electronically over computer networks such as the Internet, extranets, and corporate networks.
+Business-to-business (B2B) e-commerce - A subset of e-commerce where all the participants are organizations.
+Business-to-consumer (B2C) e-commerce - A form of e-commerce i which customers deal directly with an organization and avoid intermediaries.
+Consumer-to-consumer (C2C) e-commerce - A subset of e-commerce that involves consumers selling directly to other consumers.
+e-Government - The use of information and communication technology to simplify the sharing of information, speed formerly paper-based process, and improve the relationship between citizens and government.
+Identity theft - Someone using your personally identifying information without your permission to commit fraud or other crimes.
+Electronic retailing (e-tailing) - The direct sale from business to consumer through electronic storefronts, typically designed around and electronic catalog and shopping cart model.
+Cybermall - A single Web site that offers many products and services at one Internet location.
+Electronic exchange - An electronic forum where manufacturers, suppliers, and competitors buy and sell goods, trade market information, and run back-office operations.
+Market segmentation - The identification of specific markets to target them with advertising messages.
+Technology-enabled relationship management - Occurs when a firm obtains detailed information about a customer’s behavior, preferences, needs, and buying patterns and uses that information to set prices, negotiate terms, tailor promotions, add product features, and otherwise customize its entire relationship with that customer.
+Electronic bill presentment - A method of billing whereby a vendor posts an image of your statement on the Internet and alerts you by e-mail that your bill has arrived.
+Intellectual property - Includes works of the mind such as books, films, music, processes, and software, which are distinct somehow and are owned and/or created by a single entity. 
+Digital rights management (DRM) - Refers to the use of any of several technologies to enforce policies for controlling access to digital media such as movies, music, and software.
+Phishing - A practice that entails sending bogus messages purportedly from a legitimate institution to pry personal information from customers by convincing them to go to a «spoofed» Web site.
+Click fraud - A problem arising in a pay-per-click online advertising environment where additional clicks are generated beyond those that come from actual, legitimate users.
+Clickstream data - The data gathered based on the Web sites you visit and the items you click.
+Storefront broker - A company that acts as an intermediary between your Web site and online merchants who have the products and retail expertise.
+Meta tag - A special HTML tag, not visible on the displayed Web page, that contains keywords representing your site’s content, which search engines use to build indexes pointing to your Web site.
+Personalization - The process of tailoring Web pages to specifically target individual consumers.
+Web site development tools - Tools used to develop a Web site, including HTML or visual Web page editor, software development kits, and Web page upload support.
+Web page construction software - Software that uses Web editors and extensions to produce both static and dynamic Web pages.
+Static Web pages - Web pages that always contain the same information.
+Dynamic Web pages - Web pages containing variable information that are built to respond to a specific Web visitor’s request.
+Web services - Software modules supporting specific business processes that users can interact with over a network (such as the Internet) on an as-needed basis.
+Digital certificate - An attachment to an e-mail message or data embedded in a Web site that verifies the identity of a sender or Web site.
+Certificate Authority (CA) - A trusted third-party organization or company that issues digital certificates.
+Secure Sockets Layer (SSL) - A communications protocol is used to secure sensitive data during e-commerce.
+Electronic cash - An amount of money that is computerized, stored, and used as cash for e-commerce transactions.
+Smart card - A credit card-sized device with and embedded microship to provide electronic memory and processing capability.
+Enterprise system - A system central to the organization that ensures information can be shared across all business functions and all levels of management to support the running and managing of a business.
+Batch processing system - A from of data processing where business transactions are accumulated over a period of time and prepared for processing as a single unit or batch.
+Online transaction processing (OLTP) - A form of data processing where each transaction is processed immediately, without the delay of accumulating transactions into a batch.
+Transaction processing cycle - The process of data collection, data editing, data correction, data manipulation, data storage, and document production.
+Data collection - Capturing and gathering all data necessary to complete the processing of transactions.
+Data editing - The process of checking data for validity and completeness.
+Data correction - The process of reentering data that was not typed or scanned properly.
+Data manipulation - The process of performing calculations and other data transformations related to business transactions.
+Data storage - The process of updating one or more databases with new transactions.
+Document production - The process of generating output records and reports.
+Disaster recovery plan (DRP) - A formal plan describing the actions that must be taken to restore computer operations and services in the event of a disaster.
+Transaction processing system audit - A check of a firm’s TPS systems to prevent accounting irregularities and/or loss of data privacy.
+Best practices - The most efficient and effective ways to complete a business process.
+Customer relationship management (CRM) system - A system that helps a company manage all aspects of customer encounters, including marketing and advertising, sales, customer service after the sale, and programs to retain loyal customers.
+Decision-making phase - The first part of problem solving, including three stages: intelligence, design, and choice.
+Intelligence stage - The first stage of decision making, in which potential problems or opportunities are identified and defined.
+Design stage - The second stage of decision making, in which alternative solutions to the problem are developed.
+Choice stage - The third stage of decision making, which requires selecting a course of actions.
+Problem solving - A process that goes beyond decision making to include the implementation stage.
+Implementation stage - A stage of problem solving in which a solution is put into effect.
+Monitoring stage - The final stage of the problem solving process, in which decision makers evaluate the implementation.
+Programmed decision - A decision made using a rule, procedure, or quantitative method.
+Non-programmed decision - A decision that deals with unusual or exceptional situations.
+Optimization model - A process to find the best solution, usually the one that will best help the organization meet its goals.
+Satisficing model - A model that will find a good, but not necessarily the best, problem solution.
+Heuristics - Commonly accepted guidelines or procedures that usually find a good solution.
+Scheduled report - A report produced periodically, or on a schedule, such as daily, weekly, or monthly.
+Key-indicator report - A summary of the previous day’s critical activities; typically available at the beginning of each workday.
+Demand report - A report developed to give certain information at someone’s request.
+Exception report - A report automatically produced when a situation is unusual or requires management action.
+Drill-down report - A report providing increasingly detailed data about a situation.
+Financial MIS - An information system that provides financial information not only for executives but also for a broader set of people who need to make better decisions on daily basis.
+Profit center - A department within an organization that focuses on generating profits.
+Revenue center - A division within a company that generates sales or revenues. 
+Cost center - A division within a company that does not directly generate revenue.
+Auditing - Analyzing the financial conditions of an organization and determining wether financial statements and reports produced by the financial MIS are accurate.
+Internal auditing - Auditing performed by individuals within the organization.
+External auditing - Auditing performed by an outside group.
+Economic order quantity (EOQ) - The quantity that should be reordered to minimize total inventory costs.
+Reorder point (ROP) - A critical inventory quantity that determines when to order more inventory.
+Material requirements planning (MRP) - A set of inventory-control techniques that help coordinate thousands of inventory items when the demand of one item is dependent on the demand for another.
+Just-in-time (JIT) inventory - A philosophy of inventory management in which inventory and materials are delivered just before they are used in manufacturing a product.
+Computer-assisted manufacturing (CAM) - A system that directly controls manufacturing equipment.
+Computer-integrated manufacturing (CIM) - Using computers to link the components of the production process into an effective system.
+Flexible manufacturing system (FMS) - An approach that allows manufacturing facilities to rapidly and efficiently change from making one product to making another.
+Quality control - A process that ensures that the finished product meets the customer’s needs.
+Marketing MIS - An information system that supports managerial activities in product development, distribution, pricing decisions, and promotional effectiveness.
+Human resource MIS - An information system that is concerned with activities related to employees and potential employees of an organization, also called a personnel MIS.
+Accounting MIS - An information system that provides aggregate information on accounts payable, accounts receivable, payroll, and many other applications.
+Geographic information system (GIS) - A computer system capable of assembling, storing, manipulating, and displaying geographic information, that is, data identified according to its location.
+Ad hoc DSS - A DSS concerned with situations or decisions that come up only a few times during the life of the organization.
+Institutional DSS - A DSS that handles situations or decisions that occur more than once, usually several times per year or more. An institutional DSS is used repeatedly and refined over the years.
+Highly structured problems - Problems that are straightforward and require known facts and relationships.
+Semistructured or unstructured problems - More complex problems in which the relationships among the pieces of data are not always clear, the data might be in a variety of formats, and the data is often difficult to manipulate or obtain.
+Dialogue manager - A user interface that allows decision makers to easily access and manipulate the DSS and to use common business terms and phases.
+Model base - Part of a DSS that provides decision makers access to a variety of models and assists them in decision making. 
+Model management software - Software that coordinates the use of models in a DSS.
+Group support system (GSS) - Software application that consists of most elements in a DSS, plus software to provide effective support in group decision making; also called group decision support system or computerized collaborative work system.
+Delphi approach - A decision-making approach in which group decision makers are geographically dispersed; this approach encourages diversity among group members and fosters creativity and original thinking in decision making.
+Brainstorming - A decision-making approach that often consists of members offering ideas «off the top of their heads».
+Group consensus approach - A decision-making approach that forces members in the group to reach a unanimous decision.
+Nominal group technique - A decision-making approach that encourages feedback from individual group members, and the final decision is made by voting, similar to the way public officials are elected.
+Decision room - A room that supports decision making, with the decision makers in the same building, combining face-to-face verbal interaction with technology to make the meeting more effective and efficient.
+Virtual workgroups - Teams of people located around the world working on common problems.
+Executive support system (ESS) - Specialized DSS that includes all hardware, software, data, procedures, and people used to assist senior-level executives within the organization.
+Strategic planning - Determining long-term objectives by analyzing the strengths and weaknesses of the organization, predicting future trends, and projecting the development of new product lines.
+Chief knowledge officer (CKO) - A top-level executive who helps the organization use a KMS to create, store, and use knowledge to achieve organizational goals.
+Artificial intelligence (AI) - The ability of computers to mimic or duplicate the functions of the human brain.
+Artificial intelligence systems - People, procedures, hardware, software, data, and knowledge needed to develop computer systems and machines that demonstrate the characteristics of intelligence.
+Intelligent behavior - The ability to learn from experiences and apply knowledge acquired from experience, handle complex situations, solve problems when important information is missing, determine what is important, react quickly and correctly to a new situation, understand visual images, process and manipulate symbols, be creative and imaginative, and use heuristics.
+Perceptive system - A system that approximates the way a person sees, hears, and feels objects.
+Expert system - Hardware and software that stores knowledge and makes inferences, similar to a human expert.
+Robotics - Mechanical or computer devices that perform task requiring a high degree of precision or that are tedious of precision or hazardous for humans.
+Vision systems - The hardware and software that permit computers to capture, store, and manipulate visual images.
+Natural language processing - Processing that allows the computer to understand and react to statements and commands made in «natural» language, such as English.
+Learning systems - A combination of software and hardware that allows the computer to change how it functions or reacts to situations based on feedback it receives.
+Neural network - A computer system that can simulate the functioning of a human brain.
+Genetic algorithm - An approach to solving large, complex problems in which a number of related operations or models change and evolve until the best one emerges.
+Intelligent agent - Programs and a knowledge base used to perform a specific task for a person, a process, or another program; also called intelligent robot or bot.
+Knowledge base - A component of an expert system that stores all relevant information, data, rules, cases, and relationships used by the expert system.
+Rule - A conditional statement that links conditions to actions or outcomes.
+IT-THEN statements - Rules that suggest certain conclusions.
+Inference engine - Part of the expert system that seeks information and relationships from the knowledge base and provides answers, predictions, and suggestions similar to the way a human expert would.
+Backward chaining - The process of starting with conclusions and working backward to the supporting facts.
+Forward chaining - The process of starting with the facts and working forward to the conclusion.
+Explanation facility - Component of an expert system that allows a user or decision maker to understand how the expert system arrived at certain conclusions or results.
+Knowledge acquisition facility - Part of the expert system that provides convenient and efficient means of capturing and storing all the components of the knowledge base. 
+Domain (of an expert system) - The area of knowledge addressed by the expert system.
+Domain expert - The person or group who has the expertise or knowledge the expert system is trying to capture.
+Knowledge engineer - A person who has training or experience in the design, development, implementation, and maintenance of an expert system.
+Knowledge user - The person or group who uses and benefits from the expert system.
+Virtual reality system - A system that enables one or more users to move and react in a computer-simulated environment.
+Game theory - The use of information systems to develop competitive strategies for people, organizations, or even countries.
+Informatics - A specialized system that combines traditional disciplines, such as science and medicine, with computer systems and technology.
