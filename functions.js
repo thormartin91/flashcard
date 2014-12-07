@@ -71,7 +71,9 @@
 
 	// NEXT-function
 	function next(event) {
-		if(event.metaKey) return; // Avoid CMD-button
+		console.log(event.which);
+		// Avoid CMD-button, shift, ctrl, alt, tab, caps-lock
+		if(event.metaKey || event.which == 16 || event.which == 17 || event.which == 18 || event.which == 9 || event.which == 20) return; 
 
 		// BACKWARDS
 		if(event.which == 37 || event.which == 8) { // leftarrow or backspace
