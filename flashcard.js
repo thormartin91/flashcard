@@ -49,7 +49,7 @@ mongo.connect('mongodb://127.0.0.1/flashcard', function(err, db) {
 		var col = db.collection(subject);
 
 		// Read flashcards from DB
-		col.find().limit(100).sort({_id:1}).toArray(function(err, res) {
+		col.find().sort({_id:1}).toArray(function(err, res) {
 			if(err) throw err;
 			// Send result to client
 			socket.emit('output', res, subject);
